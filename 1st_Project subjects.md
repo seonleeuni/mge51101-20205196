@@ -1,4 +1,4 @@
-## First topics
+## First topic
 Introduction of deep learning  
 20205196 Seonmi Lee
 
