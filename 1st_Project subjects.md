@@ -1,8 +1,9 @@
-# First topics
-## Introduction of deep learning
+## First topics
+Introduction of deep learning  
 20205196 Seonmi Lee
 
 #### Text mining for classifying emotion with Natural language processing
+![natural language processing](./자연어처리.png)
 [data link](https://www.kaggle.com/ronitf/heart-disease-uci)
 * Goal  
 To find out emotion(기쁨, 슬픔, 놀람, 분노, 공포, 혐오, 중립) from short Korean sentences
