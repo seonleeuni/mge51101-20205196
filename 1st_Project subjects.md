@@ -1,6 +1,6 @@
 ## First topic 
 
-#### Text mining for classifying emotion with Natural language processing
+### Text mining for classifying emotion with Natural language processing
 ![natural language processing](자연어처리.png)  
 [data link](https://www.kaggle.com/ronitf/heart-disease-uci)
 * Goal  
