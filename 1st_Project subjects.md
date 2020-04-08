@@ -52,7 +52,7 @@ Accuracy & F1 score (precision)
 
 
 * Difficulties of the data
-  * In the preprocessing, there are a lot of typos. 
-  --> Considering that, without tokenization, making charactor based n-gram(n = 4~8)  
-   /김유영, & 송민. (2016). 영화 리뷰 감성분석을 위한 텍스트 마이닝 기반 감성 분류기 구축. 지능정보연구, 22(3), 71-89./
+  * In the preprocessing, there are a lot of typos.  
+  --> Considering that, without tokenization, making charactor based n-gram(n = 4~8)    
+   _김유영, & 송민. (2016). 영화 리뷰 감성분석을 위한 텍스트 마이닝 기반 감성 분류기 구축. 지능정보연구, 22(3), 71-89._
 
