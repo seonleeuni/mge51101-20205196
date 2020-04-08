@@ -6,14 +6,50 @@
 * Goal  
 To find out emotion(기쁨, 슬픔, 놀람, 분노, 공포, 혐오, 중립) from short Korean sentences
 
+* Evaluation metric  
+Accuracy & F1 score (precision)
+
 * The way to get data  
   * Data link: [AI hub site](http://www.aihub.or.kr/keti_data_board/language_intelligence)
   * company in charge : ㈜ 아크릴
 
 * Data description  
-  * Sentences were crawled from SNS and online comment
-  * Each sentece was seperated
-  * Data is in xlxs format
+  * Sentences were crawled from SNS and online comment(from portal site)
+  * Each sentece was seperated(Each sentece has its **own emotion label**)
   * data number: 38,594 sentences
-  * words from each sentence : 23.7±13.6자
- 
+  * length of each sentence : 23.7±13.6자
+  * Words of each sentence : 5.3 ± 3.1
+  
+    
+
+  
+* Emotion labels proportion
+
+  공포 |놀람 |분노 |슬픔 |중립 |행복 |혐오 |sum      
+  --- | --- | --- | --- | --- | --- | --- |---
+  |0.156423|0.152822|0.146784|0.141680|0.140670|0.136472|0.125149|1
+
+  * --> **little imbalance**
+
+* The whole process for classification  
+  * Preprocessing  
+    * Remove emoticon or punctuations(Remove all except words)  
+    --> Because emoticon is used to emphasize emotion and this project deosn't seperate emotion that specifically.
+
+    * Tokenization with '(space)' using KoNLPy 
+    * Remove stopword
+    * Embedding (changeing words into int)
+    * Padding(matching size)
+
+  * Modeling
+    * Machine learning model(for comparison)  
+      Naive Bayes, Support vector machine
+
+    * Deep learning
+
+  * Evaluation
+    Evaluate model with Accuracy & F1 score (precision)
+
+
+* Difficulties of the data
+  * In the preprocessing, there are a lot of typos. Considering that, 
