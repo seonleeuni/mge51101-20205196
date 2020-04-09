@@ -3,17 +3,17 @@
 ### Text mining for classifying emotion with Natural language processing
 ![natural language processing](자연어처리.png)  
 
-* Goal  
+#### Goal  
 To find out emotion(기쁨, 슬픔, 놀람, 분노, 공포, 혐오, 중립) from short Korean sentences
 
-* Evaluation metric  
+#### Evaluation metric  
 Accuracy & F1 score (precision)
 
-* The way to get data  
+#### The way to get data  
   * Data link: [AI hub site](http://www.aihub.or.kr/keti_data_board/language_intelligence)
   * company in charge : ㈜ 아크릴
 
-* Data description  
+#### Data description  
   * Sentences were crawled from SNS and online comment(from portal site)
   * Each sentece was seperated(Each sentece has its **own emotion label**)
   * data number: 38,594 sentences
@@ -23,7 +23,7 @@ Accuracy & F1 score (precision)
     
 
   
-* Emotion labels proportion
+#### Emotion labels proportion
 
   공포 |놀람 |분노 |슬픔 |중립 |행복 |혐오 |sum      
   --- | --- | --- | --- | --- | --- | --- |---
@@ -31,7 +31,7 @@ Accuracy & F1 score (precision)
 
   * --> **little imbalance**
 
-* The whole process for classification  
+#### The whole process for classification  
   * Preprocessing  
     * Remove emoticon or punctuations(Remove all except words)  
     --> Because emoticon is used to emphasize emotion and this project deosn't seperate emotion that specifically.
@@ -53,7 +53,7 @@ Accuracy & F1 score (precision)
     Evaluate model with Accuracy & F1 score (precision)
 
 
-* Difficulties of the data
+#### Difficulties of the data
   * In the preprocessing, there are a lot of typos.  
   --> Add a step: without tokenization, making charactor based n-gram(n = 4~8)    
    ###### _김유영, & 송민. (2016). 영화 리뷰 감성분석을 위한 텍스트 마이닝 기반 감성 분류기 구축. 지능정보연구, 22(3), 71-89._
