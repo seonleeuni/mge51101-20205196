@@ -54,9 +54,7 @@ Accuracy & F1 score (precision)
   * Evaluation  
     * Accuracy for each instances(emotions) and its average 
     * F1 score especially, precision
-    $$
-    \alpha
-    $$
+    $accuracy, A = \frac{1}{n} {\sum_{i = 1}^{n}{\left | Y_{i} \cap Z_{i} \right | \over \left| Y_i \cup Z_i \right|}}$ 
 
 
 
