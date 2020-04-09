@@ -52,7 +52,7 @@ Accuracy & F1 score (precision)
   
 
   * Evaluation([link](https://i.stack.imgur.com/PQqVt.png))
-    * Accuracy for each instances(emotions) and its average ([formula](file:///Users/iseonmi/Downloads/CodeCogsEqn.svg))
+    * Accuracy for each instances(emotions) and its average 
     * F1 score(precision,recall)
     * higher accuracy and F1 score --> better performance of model
    
