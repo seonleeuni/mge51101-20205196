@@ -52,7 +52,10 @@ Accuracy & F1 score (precision)
   
 
   * Evaluation  
-    Evaluate model with Accuracy & F1 score (precision)
+    * Accuracy for each instances(emotions) and its average 
+    * F1 score especially, precision
+\[ x(t)=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \]
+
 
 
 #### Difficulties of the data
