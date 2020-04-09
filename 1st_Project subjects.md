@@ -49,7 +49,7 @@ Accuracy & F1 score (precision)
      CNN
   
 
-  * Evaluation
+  * Evaluation  
     Evaluate model with Accuracy & F1 score (precision)
 
 
