@@ -45,7 +45,9 @@ Accuracy & F1 score (precision)
     * Machine learning model(for comparison)  
       Naive Bayes, Support vector machine
 
-    * Deep learning
+    * Deep learning  
+     CNN
+  
 
   * Evaluation
     Evaluate model with Accuracy & F1 score (precision)
