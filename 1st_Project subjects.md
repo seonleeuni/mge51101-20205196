@@ -31,7 +31,7 @@ Accuracy & F1 score (precision)
   --- | --- | --- | --- | --- | --- | --- |---
   |0.156423|0.152822|0.146784|0.141680|0.140670|0.136472|0.125149|1
 
-  * --> **little imbalance**
+  --> **little imbalance**
 
 #### The whole process for classification  
   * Preprocessing  
