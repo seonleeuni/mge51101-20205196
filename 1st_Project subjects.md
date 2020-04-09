@@ -51,13 +51,11 @@ Accuracy & F1 score (precision)
      CNN
   
 
-  * Evaluation  
+  * Evaluation([link](https://i.stack.imgur.com/PQqVt.png))
     * Accuracy for each instances(emotions) and its average 
-    * F1 score especially, precision
-    $accuracy, A = \frac{1}{n} {\sum_{i = 1}^{n}{\left | Y_{i} \cap Z_{i} \right | \over \left| Y_i \cup Z_i \right|}}$ 
-
-
-
+    * F1 score(precision,recall)
+    * higher accuracy and F1 score --> better performance of model
+   
 #### Difficulties of the data
   * In the preprocessing, there are a lot of typos.  
   --> Add a step: without tokenization, making charactor based n-gram(n = 4~8)    
