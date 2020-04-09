@@ -6,7 +6,7 @@
 ![natural language processing](자연어처리.png)  
 
 #### Goal  
-To find out emotion(기쁨, 슬픔, 놀람, 분노, 공포, 혐오, 중립) from short Korean sentences
+To find out emotion(기쁨, 슬픔, 놀람, 분노, 공포, 혐오, 중립) from short Korean sentences through supervised learning
 
 #### Evaluation metrics  
 Accuracy & F1 score (precision)
