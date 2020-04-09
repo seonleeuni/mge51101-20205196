@@ -6,7 +6,7 @@
 #### Goal  
 To find out emotion(기쁨, 슬픔, 놀람, 분노, 공포, 혐오, 중립) from short Korean sentences
 
-#### Evaluation metric  
+#### Evaluation metrics  
 Accuracy & F1 score (precision)
 
 #### The way to get data  
