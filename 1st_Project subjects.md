@@ -48,7 +48,7 @@ Accuracy & F1 score (precision)
       Naive Bayes, Support vector machine
 
     * Deep learning  
-     CNN,LSTM,RNN
+     CNN
   
 
   * Evaluation([link](https://i.stack.imgur.com/PQqVt.png))
